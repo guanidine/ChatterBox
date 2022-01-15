@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="146dp"
+            android:background="@drawable/logo2"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="86dp" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/text_inf"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="45dp"
+                android:background="@drawable/ico1" />
+
+            <EditText
+                    android:id="@+id/userNumText"
+                    android:layout_width="140dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.21"
+                    android:background="#F1F4F6"
+                    android:textSize="20sp"
+                    android:maxLength="12"
+                    android:numeric="integer"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/text_inb"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/passWordText"
+                android:layout_width="165dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="80dp"
+                android:layout_weight="0.21"
+                android:background="#F1F4F6"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="15"
+                android:password="true"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:orientation="horizontal"
+            android:layout_height="30dp">
+            <ImageButton
+                android:id="@+id/selButton"
+                android:layout_width="15dp"
+                android:layout_marginStart="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sel1"
+                android:layout_height="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:text="@string/str1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str2"
+                android:textColor="#0099CC"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_width="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_btn2"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/str3"
+            android:textColor="#0099CC"
+            android:paddingEnd="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/str4"
+            android:textColor="#0099CC"
+            android:paddingStart="30dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatterBox</string>
+    <string name="str1">已阅读并同意</string>
+    <string name="str2">服务协议及保护指引</string>
+    <string name="str3">新用户注册</string>
+    <string name="str4">找回密码</string>
+</resources>
